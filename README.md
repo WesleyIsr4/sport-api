@@ -19,10 +19,6 @@
   </a>
 </div>
 
-<div align="center">
-  <sub>Created by <a href="https://twitter.com/jpedroschmitz">João Pedro</a> with the help of many <a href="https://github.com/jpedroschmitz/typescript-nextjs-starter/graphs/contributors">wonderful contributors</a>.</sub>
-</div>
-
 <br />
 
 ## Features
@@ -44,6 +40,10 @@
 - 🗂 Path Mapping — Import components or images using the `@` prefix
 
 ### Development
+
+- Configure github CLI
+- Configure PlanetScale for database Mysql
+- use RapidAPI for get info
 
 To start the project locally, run:
 
