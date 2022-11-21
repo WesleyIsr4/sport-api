@@ -1,9 +1,7 @@
-import useRequireAuth from 'lib/useRequireAuth';
-
 import { Nav } from '@/components/Nav';
 
-import * as S from './styles';
 import useFetch from '@/hooks/useFetch';
+import * as S from './styles';
 
 function CardLeague() {
   const { data, loading } = useFetch('leagues');
@@ -48,10 +46,6 @@ function CardTeam() {
 }
 
 export function HomeTemplate() {
-  const session = useRequireAuth();
-
-  if (!session) return;
-
   return (
     <S.Container>
       <Nav />
